@@ -1,3 +1,5 @@
+https://ivan-shamaev.ru/data-engineering-etl-pipeline-data-warehouse-datalake/
+https://tproger.ru/curriculum/data-engineer-interview-guide/
 # SQL
 
 

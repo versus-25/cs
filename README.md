@@ -85,8 +85,7 @@ ROWS
 )
 Границы можно определять рядом выражений:
 ![image](https://user-images.githubusercontent.com/53166911/179399093-41af7cf4-038e-40f0-a894-9fc77d54cf0c.png)
-img[alt=drawing] { width: 200px; }
-<img src="[drawing.jpg](https://user-images.githubusercontent.com/53166911/179399093-41af7cf4-038e-40f0-a894-9fc77d54cf0c.png)" alt="drawing" width="200" height="200"/>
+<img src="[https://github.com/favicon.ico](https://user-images.githubusercontent.com/53166911/179399093-41af7cf4-038e-40f0-a894-9fc77d54cf0c.png)" width="48">
 N PRECEDING, N строк до текущей строки
 CURRENT ROW, текущая строка
 UNBOUNDED PRECEDING, все строки, предшествующие текущей

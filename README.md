@@ -84,7 +84,7 @@ ORDER BY
 ROWS
 )
 Границы можно определять рядом выражений:
-![image](https://user-images.githubusercontent.com/53166911/179399093-41af7cf4-038e-40f0-a894-9fc77d54cf0c.png)
+![image](https://user-images.githubusercontent.com/53166911/179399093-41af7cf4-038e-40f0-a894-9fc77d54cf0c.png =100x20)
 
 N PRECEDING, N строк до текущей строки
 CURRENT ROW, текущая строка

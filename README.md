@@ -2,7 +2,7 @@ https://ivan-shamaev.ru/data-engineering-etl-pipeline-data-warehouse-datalake/
 https://tproger.ru/curriculum/data-engineer-interview-guide/
 # SQL
 
-
+---
 ### DDL – Data Definition Language
 CREATE – используется для создания объектов базы данных;
 ALTER – используется для изменения объектов базы данных;

@@ -7,7 +7,6 @@ https://tproger.ru/curriculum/data-engineer-interview-guide/
 CREATE – используется для создания объектов базы данных;
 ALTER – используется для изменения объектов базы данных;
 DROP – используется для удаления объектов базы данных.
-
 ### DML – Data Manipulation Language
 SELECT – осуществляет выборку данных;
 INSERT – добавляет новые данные;

@@ -122,8 +122,18 @@ BETWEEN «граница окна» AND «граница окна» — указ
 
 SomeClass.hello() # Hello, world
 obj = SomeClass()
-obj.hello() # Hello, world```
+obj.hello() # Hello, world
+```
 
+**@classmethod** выполняются не в контексте объекта, а в контексте самого класса  (классы – это тоже объекты). Такие методы создаются с помощью декоратора @classmethod и требуют обязательную ссылку на класс (cls).
+```
+class SomeClass(object):
+    @classmethod
+    def hello(cls):
+        print('Hello, класс {}'.format(cls.__name__))
+
+SomeClass.hello() # Hello, класс SomeClass
+```
 ####Типы
 Неизменяемые (в функциях передается независимая копия)
 **Numbers** (числа) int float complex

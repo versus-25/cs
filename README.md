@@ -179,6 +179,15 @@ obj._SomeClass__param # 42
 Вместо того чтобы вручную создавать геттеры и сеттеры для каждого атрибута, можно перегрузить встроенные методы __getattr__, __setattr__ и __delattr__.
 
 Если поставить перед именем атрибута два подчеркивания, к нему нельзя будет обратиться напрямую. Но все равно остается обходной путь:
+```
+class SomeClass():
+    def __init__(self):
+        self.__param = 42 # защищенный атрибут
+
+obj = SomeClass()
+obj.__param # AttributeError: 'SomeClass' object has no attribute '__param'
+obj._SomeClass__param # 42
+```
 - **Полиморфизм** — это возможность работать с несколькими типами так, будто это один и тот же тип. При этом поведение объектов будет разным в зависимости от типа, к которому они принадлежат.
 ```
 class Mammal:
@@ -194,4 +203,20 @@ animal.move() # Двигается
 hare = Hare()
 hare.move() # Прыгает
 ```
+
+
+
+
 ###Q&A
+Потоки - блокируются GIL Global Interpreter Lock
+```
+import threading
+import time
+def clock(interval):
+    while True:
+        print("The time is %s" % time.ctime())
+        time.sleep(interval)
+t = threading.Thread(target=clock, args=(15,))
+t.daemon = True
+t.start()
+```

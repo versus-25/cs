@@ -4,28 +4,28 @@ https://bozaro.github.io/tech-db-lectures/
 ## SQL
 
 #### DDL – Data Definition Language
-CREATE – используется для создания объектов базы данных;
-ALTER – используется для изменения объектов базы данных;
-DROP – используется для удаления объектов базы данных.
+* CREATE – используется для создания объектов базы данных;
+* ALTER – используется для изменения объектов базы данных;
+* DROP – используется для удаления объектов базы данных.
 
 #### DML – Data Manipulation Language
-SELECT – осуществляет выборку данных;
-INSERT – добавляет новые данные;
-UPSERT
-REPLACE
-UPDATE – изменяет существующие данные;
-DELETE – удаляет данные.
+* SELECT – осуществляет выборку данных;
+* INSERT – добавляет новые данные;
+* UPSERT
+* REPLACE
+* UPDATE – изменяет существующие данные;
+* DELETE – удаляет данные.
 
 #### DCL – Data Control Language
-GRANT – предоставляет пользователю или группе разрешения на определённые операции с объектом;
-REVOKE – отзывает выданные разрешения;
-DENY– задаёт запрет, имеющий приоритет над разрешением.
+* GRANT – предоставляет пользователю или группе разрешения на определённые операции с объектом;
+* REVOKE – отзывает выданные разрешения;
+* DENY– задаёт запрет, имеющий приоритет над разрешением.
 
 #### TCL – Transaction Control Language
-BEGIN TRANSACTION – служит для определения начала транзакции;
-COMMIT TRANSACTION – применяет транзакцию;
-ROLLBACK TRANSACTION – откатывает все изменения, сделанные в контексте текущей транзакции;
-SAVE TRANSACTION – устанавливает промежуточную точку сохранения внутри транзакции.
+* BEGIN TRANSACTION – служит для определения начала транзакции;
+* COMMIT TRANSACTION – применяет транзакцию;
+* ROLLBACK TRANSACTION – откатывает все изменения, сделанные в контексте текущей транзакции;
+* SAVE TRANSACTION – устанавливает промежуточную точку сохранения внутри транзакции.
 
 ---
 
@@ -216,29 +216,7 @@ hare = Hare()
 hare.move() # Прыгает
 ```
 
-###Q&A
-Потоки - блокируются GIL Global Interpreter Lock
-```
-import threading
-import time
-def clock(interval):
-    while True:
-        print("The time is %s" % time.ctime())
-        time.sleep(interval)
-t = threading.Thread(target=clock, args=(15,))
-t.daemon = True
-t.start()
-```
-Какие типы данных относятся к структурам данных
-- Массивы
-- Стеки
-- Кучи
-- Очереди
-- Связанные списки
-- Графы
-- Деревья
-- Хэш таблицы
-- Map
+
 
 #### Принципы SOLID
 https://github.com/amodiahs/SOLID_Design_Principles
@@ -266,7 +244,29 @@ D — Dependency Inversion (Принцип инверсии зависимост
 
 
 
-
+### Q&A
+Потоки - блокируются GIL Global Interpreter Lock
+```
+import threading
+import time
+def clock(interval):
+    while True:
+        print("The time is %s" % time.ctime())
+        time.sleep(interval)
+t = threading.Thread(target=clock, args=(15,))
+t.daemon = True
+t.start()
+```
+Какие типы данных относятся к структурам данных
+- Массивы
+- Стеки
+- Кучи
+- Очереди
+- Связанные списки
+- Графы
+- Деревья
+- Хэш таблицы
+- Map
 
 
 архитектура двх

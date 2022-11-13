@@ -1,7 +1,7 @@
-for var in list   
-do  
-	#actions
-done
+	for var in list
+	do
+		#actions
+	done
 
 if [[ predict ]]
 then

@@ -1,5 +1,5 @@
-for var in list. 
-do. 
+for var in list   
+do  
 	#actions
 done
 

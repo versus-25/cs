@@ -3,14 +3,14 @@
 		#actions
 	done
 
-if [[ predict ]]
-then
-	#action
-elif  #optional
-then #optional
-	#action
-else #optional
-fi  
+	if [[ predict ]]
+	then
+		#action
+	elif  #optional
+	then #optional
+		#action
+	else #optional
+	fi  
 
 case var in
 value1)

@@ -53,6 +53,7 @@ strace или sotruss
 
 
 
+
   
 
   

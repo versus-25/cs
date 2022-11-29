@@ -72,3 +72,5 @@ cat /proc/pressure/{cpu, io, memory} сведения о загрузке про
 ### сигналы
 kill - по дефолту отправляет SIGTERM
 kill -HUP для перечитывания конфига
+  
+

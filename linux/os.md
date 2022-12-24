@@ -166,3 +166,12 @@ sfdisk
 fdisk просмотр и создание таблиц разделов дисков  
 /etc/fstab - данные о файловых системах man 5 fstab  
 
+  
+## Сети  
+**A**ll
+**P**eople
+**S**eem
+**T**o
+**N**eed
+**D**ata
+**P**rocessing

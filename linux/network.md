@@ -41,5 +41,7 @@
 
 <img width="494" alt="Снимок экрана 2022-12-24 в 17 41 59" src="https://user-images.githubusercontent.com/53166911/209438555-07aa40e4-167a-4e8c-8064-235dc38169a0.png">
 
+<img width="494" alt="Снимок экрана 2022-12-24 в 17 47 08" src="https://user-images.githubusercontent.com/53166911/209438720-038e2a34-d386-4dae-b25b-ce37bf1f6a26.png">
 
+<img width="490" alt="Снимок экрана 2022-12-24 в 17 54 13" src="https://user-images.githubusercontent.com/53166911/209438921-d4d2fab4-e685-4743-99e9-6e0694ec5707.png">
 

@@ -93,6 +93,9 @@ ip
 **Flow control** - при передаче от 10 гигабитного хоста 1гигабитному размер рамки не позволит линк больше 1гигабита.  
 **Congestion control** контроль заторов, размер окна cwnd
 
+####iperf пропускная способность сети, можно смотреть window и изменять
+
+
 добавляем сеть
 ip, netns - инструменты управления сетевыми неймспейсами  
 ip link add veth-host type veth peer veth-ns добавить сеть veth - veth-ns (неймспейс - хост, цифровой вариант витой пары)  
@@ -101,3 +104,12 @@ ip netns exec demoapp ip link set veth-ns up - поднимаем сетевой
 ip addr add 169.254.1.1/30 dev veth-host. 
 
 ip link add veth-host type veth peer veth-ns добавить сеть veth - veth-ns (неймспейс - хост, цифровой вариант витой пары)
+
+####IPVS(LVS) + keepalived(VRRP)
+IPVS может работать в режимах 
+- NAT
+- DR(direct routing) - должна быть связность на уровне L2. В этом режиме подменяются Ethernet-заголовки, те он знает MAC бекендов и обеспечивает прямое перенаправление на конкретные машины
+- tonnel
+ipvsadm - утилита ядра для поднятия IPVS  
+
+

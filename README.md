@@ -1,6 +1,7 @@
-https://ivan-shamaev.ru/data-engineering-etl-pipeline-data-warehouse-datalake/
-https://tproger.ru/curriculum/data-engineer-interview-guide/
-https://bozaro.github.io/tech-db-lectures/
+https://github.com/Swfuse/devops-interview  
+https://ivan-shamaev.ru/data-engineering-etl-pipeline-data-warehouse-datalake/  
+https://tproger.ru/curriculum/data-engineer-interview-guide/  
+https://bozaro.github.io/tech-db-lectures/  
 ## SQL
 
 #### DDL – Data Definition Language
